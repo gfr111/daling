@@ -1,0 +1,82 @@
+.search_house{width:1200px;margin:0 auto;}
+.goodslist{display: none;}
+#search_house{background: #FFFFFF;}
+.types:hover .goodslist{display: block;}
+.search_house{padding:20px 0}
+.search_house h2{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico.png) no-repeat left center;height:20px;background-position: 1px -42px;width:20px;float: left;margin-right:30px;}
+.search_house span{display: block;width:7px;height:20px;background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico_arrow.png);float: left;background-position: 7px -85px;}
+.condition{border: 1px solid #CCCCCC;padding: 20px;margin-bottom: 10px;width:1158px;margin:0 auto;}
+.condition_list dl dt{float: left;font-weight: bold;width:70px;padding: 8px 0 10px;}
+.condition_list li{position: relative;}
+.condition_list dl {float: left;}
+.condition_list dl dd{float: left;width:840px;}
+.condition_list dl dd a{float: left;margin: 10px 20px 0 0;display: block;width: 100px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.more{height:24px;overflow: hidden;}
+.select{display: none;overflow: visible;border: 1px solid #ccc;padding: 10px 20px;margin-top: 10px;margin-bottom: 14px;position: relative;height:130px;}
+ label{float: left;margin: 10px 20px 0 0;display: block;width: 100px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+ label input{vertical-align: middle;}
+ .price_select,#list2{display: none;}
+.price_more span{float: left;margin: 10px 20px 0 0;display: block;width: 100px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.price_more span:hover{color: #E14958;}
+.price_select{overflow: visible;border: 1px solid #ccc;padding: 10px 20px;margin-top: 10px;margin-bottom: 14px;height:70px;position: relative;}
+.price_select div{position: absolute;bottom:10px;left:310px}
+.price_select div button{background: #e14958;border: 0;outline: none;width:68px;height:22px;color:#FFFFFF;}
+.price_select div button:nth-child(1){margin-right:30px;}
+.option{ position: absolute;left:83%;;top: 2px;}
+.option a{width: 58px;height: 24px;line-height: 24px; border: 1px solid #ccc; display: inline-block;text-align: center;margin-left: 10px;}
+.price{width: 58px;height: 24px;line-height: 24px; border: 1px solid #ccc; display: inline-block;text-align: center;position: absolute;left:83.8%;top: 2px;cursor: pointer;}
+.select div{position: absolute;bottom:10px;left:310px}
+.select div button{background: #e14958;border: 0;outline: none;width:68px;height:22px;color:#FFFFFF;}
+.select div button:nth-child(1){margin-right:30px;}
+.search_title{background-color: #fbfbfb;border: 1px solid #ccc; height: 36px;
+line-height: 36px;padding: 0 15px; margin-top: 20px;position: relative;width:1170px;margin:0 auto;margin-top:20px;}
+.icon{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico-sort.png) no-repeat;display: inline-block;width:9px;height:12px;}
+.search_title>span{margin-right: 10px;position: relative;top:2px;}
+.search_title a{margin-right: 10px;}
+.search_title div{float: left;}
+.search_title div:nth-child(2){margin-left:700px;}
+.search_title input{position: relative;top: 2px;}
+.total{color:#E14958}
+.search_list li{width:283px;height: 385px; border: 1px solid #e5e5e5; margin-left: 20px;float: left;margin-bottom: 20px;position: relative;}
+.search_list li:hover img{transform: scale(1.2,1.2);transition: all 1.5s;}
+.search_list li:hover .intro span:nth-child(2){color: #E14958;}
+.search_list li:hover{box-shadow: 0 0 9px #CCCCCC;}
+.search_list li a{width:283px;height:255px;overflow: hidden;display: inline-block;}
+.search_list li:hover .shopcar2{display: block;}
+.search_list li a img{width:283px;height:255px;}
+.search_list li div{margin: 8px 26px 0;}
+.data{margin-bottom: 10px;}
+.data span:nth-child(2){color: #E14958;font-size: 20px;}
+.shopcar2 {width:283px; height:34px;position: absolute;left:-26px;background:rgba(189,67,215,0.4);text-align: center;top:213px;line-height: 34px;font-size: 16px;display: none;}
+.shopcar2 a{color: #FFFFFF;}
+.shopcar2 i{font-size: 20px !important;margin-left:5px;}
+.intro{height:40px;overflow: hidden;line-height: 20px;margin-bottom: 10px;}
+.intro span:nth-child(1){color: #E14958;}
+intro
+.detail{color: #999;margin-left: 30px;}
+.detail>span:nth-child(2){display: inline-block;width:1px;height:12px;padding: 0 6px;color: #999;}
+.search_list{margin: 0 auto;width:1200px;margin-top: 20px;position: relative;padding-bottom: 40px;margin-bottom: 20px;}
+.search_list ul{margin-left: -20px;}
+/*分页皮肤*/
+#Pagination{position: absolute;bottom: 0;right:0;margin-top: 20px;}     
+.pagination a {
+    text-decoration: none;
+	border: 1px solid #999;
+}
+.pagination a, .pagination span {
+    display: inline-block;
+    padding: 0.2em 0.4em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination .current {
+    background: #999;
+    color: #fff;
+	border: 1px solid #999;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;}

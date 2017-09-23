@@ -1,0 +1,37 @@
+.login_header_inner,.main_inner{width:1200px;margin:0 auto;}
+#login_header{background: #fff;border-bottom: 1px solid #e5e5e5;}
+.login_header_inner{pading:20px 0;height:100px;position: relative;}
+.login_header_inner img{position: absolute;left: 0;top: 50%;margin-top: -20px;}
+.main_inner{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/bg/login_bg.png?a=1) 80px 40px no-repeat #f9fbfd;height:660px;}
+.registry{width: 390px; height: 446px;float: right;border: 1px solid #e5e5e5;background: #fff;padding: 20px 30px;margin-top: 45px;margin-right: 80px;}
+.registry .title{border-left: 3px solid #7d589d;padding-left:10px;font-weight: normal;padding-top:3px;font-size: 16px;margin-bottom: 24px;}
+.chioce{width:280px;margin: 0 auto;font-size: 16px;border-bottom: 1px solid #7d589d;padding:0 40px;}
+.chioce a{display: inline-block;width: 70px;height:28px;line-height: 28px;text-align: center;}
+.chioce #login{margin-right:40px;}
+.bottomLine{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/bg/login_arr.png) no-repeat;background-position: 0 18px;}
+.registry form{margin: 25px 0 0 30px; width: 320px;font-size: 15px;}
+form p {height:38px;position: relative;margin-bottom: 25px;}
+form p span{display: inline-block;width:40px;height:38px;border:1px solid #CCCCCC;border-right: 0;text-align: center;line-height: 38px;}
+form p span i{font-size: 24px !important;}
+input{height:36px;border:0;border: 1px solid #CCCCCC;position: absolute;left: 41px;top: 0;text-indent: 12px;outline: none;
+}
+.phone,#pass,.phone1{width:256px;}
+.checkNum,{width:145px;}
+.check{display: inline-block;float:right;width:70px;height:30px;background: #CCCCCC;text-align: center;line-height: 30px;margin-top:3px;margin-right: 20px;}
+#pNum{display: inline-block;float:right;width:80px;height:25px;background: #94d469;text-align: center;line-height: 30px;margin-top:3px;margin-right: 20px;font-size: 14px;margin-top: 7px;line-height: 25px;text-align: center;}
+#put1{width:320px;height:40px;background: #e14958;margin-top: 20px;text-align: center;line-height: 40px;font-size: 16px;color: #FFFFFF;}
+#put2{width:320px;height:40px;background: #e14958;margin-top: 20px;text-align: center;line-height: 40px;font-size: 16px;color: #FFFFFF;}
+.register{display:none}
+#password{
+	width:256px;height:36px
+}
+#choose{width:13px;height:13px;position: absolute;left:0;}
+.register p:nth-child(5){text-indent: 25px;font-size: 12px;margin-bottom: 0;height: 12px;}
+.register p:nth-child(5) a{color: #0064EA;}
+
+form>div{position: relative;}
+form>div>span{position: absolute;left:0;top:42px;margin-left: 4px;color:#CCCCCC;}
+
+.toast{
+	width:300px;height:150px;background: url(http://i.dimg.cc/ea/2b/45/f4/3d/c8/f1/a3/4a/17/8e/45/15/ba/08/27.jpg) no-repeat;box-shadow: 0 0 6px #CCCCCC;position:absolute;left:50%;top:45%;marginLeft:-100px;marginTop: -100px;text-align: center;font-size: 14px;background-size: cover;background-position: 0 -30px;color: #FFFFFF;
+}

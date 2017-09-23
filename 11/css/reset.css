@@ -1,0 +1,17 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+
+fieldset, c{ border:none; }
+
+img{display: block;}
+
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+
+ul,ol,li{ list-style:none; }
+
+body { color:#333; font:12px "Helvetica Neue","Microsoft YaHei","Arial Narrow",HELVETICA,"WenQuanYi Micro Hei"; background:#fff;/* overflow-y:scroll; */overflow-x:hidden;background:#f9f9f9;}
+
+
+a { color:#666; text-decoration:none; }
+
+
+.clearfix:after{content:'';clear:both;display:block;height:0;visibility:hidden;overflow:hidden;}

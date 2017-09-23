@@ -1,0 +1,143 @@
+.goodslist{display: none;}
+#search_house{background: #FFFFFF;}
+.types:hover .goodslist{display: block;}
+.detail_inner{width:1200px;margin: 0 auto;}
+.detail_title{margin:20px 0;border-top: 1px solid #CCCCCC;padding:10px 0;border-bottom: 1px solid #CCCCCC;color: #636163;}
+.detail_title h2{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico.png) no-repeat left center;height:20px;background-position: 1px -42px;width:20px;float: left;margin-right:30px;}
+.detail_title span:nth-child(2),.detail_title span:nth-child(4),.detail_title span:nth-child(6){display: block;width:7px;height:20px;background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico_arrow.png);float: left;background-position: 7px -85px;margin-right: 10px;}
+.detail_title span:nth-child(3){position: relative;top:2px;}
+.share{margin-top:30px;width:378px;margin-bottom: 30px;position: relative;}
+.iconfont{position: relative;top:2px;}
+.fx{float:left;margin-right:40px;}
+.like{float:left;}
+.warn{float:right;}
+.span_icon1{border-color: #666 transparent transparent;    display: inline-block;border-style: solid; height: 0;line-height: 0; width: 0;border-width: 5px 4px;margin-top: 2px;position: relative;top: 2px;margin-left: 4px;}
+.warn_more{float: right;position: absolute; right: -46px;top:1px;}
+.span_icon2{border-color:  transparent transparent  #666 transparent;display: inline-block;border-style: solid; height: 0;line-height: 0; width: 0;border-width: 5px 4px;margin-top: 2px;position: relative;top: -3px;margin-left: 4px;}
+.note{width:192px;margin-top: 10px;line-height: 18px;display: none;}
+.note span{display: inline-block;margin-left: 50px;}
+.warn_more2{float:right;width:195px;border:1px solid #CCCCCC;padding:20px;position: absolute;right:-57px;top:-20px;background: #FFFFFF;z-index: 2;}
+.text{display: block;width:205px;text-align: center;}
+.fx a{color: #4477AA;}
+.like a{color: #E14958;}
+.intro_l,.intro_r{float: left;}
+.intro_r{padding-left: 40px;}
+.intro_r h1{font-weight: normal;font-size: 20px;margin-top: 10px;margin-bottom: 30px;}
+.intro_price dt{float: left;font-size: 14px;width:80px;height:40px;line-height: 40px;}
+.intro_price dd{float:left;}
+.intro_price dd div span:nth-child(2){font-size: 36px;font-weight: bold;}
+.intro_price dd p span:nth-child(1){background: #E14958;color: #fff;margin:0 6px;display: inline-block;}
+.goods_function{margin-top: 24px;border-bottom: 1px dashed #CCCCCC;padding:10px 0;border-top: 1px dashed #CCCCCC;}
+.goods_function li{float:left;width:198px;height:20px;border-right: 1px solid #ccc;text-align: center;}
+.goods_function li:nth-child(1) span{color: #f6f314;position: relative;top: -1px;}
+.goods_function li:nth-child(1) span i:nth-child(5){color: #C0C0C0;}
+.goods_function li:nth-child(3){border: 0;}
+.number{margin-top: 20px;}
+.number input{width: 38px;height: 28px;line-height: 28px; text-align: center;border: 1px solid #e5e5e5;margin-right:6px;outline: none;}
+.number{position: relative;margin-bottom: 30px;}
+.number a{border: 1px solid #CCCCCC;display: inline-block;width:15px;height:13px;}
+#plus{position: absolute;top:15px;}
+#reduce{position: absolute;}
+.goods_btn{margin-left:80px;}
+.goods_btn a{width:138px;height:36px;border:2px solid #E14958;display: inline-block;text-align: center;line-height: 36px;font-size: 16px;color: #E14958;}
+#buynow{margin-right:20px;}
+#addcar{background: #E14958;color: #FFFFFF;}
+.tips{padding-top: 30px;padding-left: 80px;}
+.tips>span span{display: inline-block;width:20px;height:20px;position: relative;top:6px;}
+.tips>span{margin-right: 30px;}
+.tips>span:nth-child(1) span{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico_mark.png) 0 -36px no-repeat;}
+.tips>span:nth-child(2) span{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico_mark.png) -67px -36px no-repeat;}
+.tips>span:nth-child(3) span{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico_mark.png) 0 -8px no-repeat;}
+/*下面为放大镜*/
+.pic{width:379px;height:379px;border:1px solid #CCCCCC;position: relative;}
+.pic img{width:100%;height:100%;}
+#small{width:200px;height:150px;background: #CCCCCC;position: absolute;left: 0;top:0;display: none;background:url(http://img.cdn.daling.com/data/files/zin/2017/01/09/FA163E0C4D3EH19I08IKEOD29MQ.jpg);background-position:0 0;background-size: 379px 379px;border: 1px solid #CCCCCC;}
+#big{width: 400px;height: 380px;position: absolute;left: 510px;top: 262px;display: none;overflow: hidden;background:url(http://img.cdn.daling.com/data/files/zin/2017/01/09/FA163E0C4D3EH19I08IKEOD29MQ.jpg);background-position:0 0;z-index: 3;}
+/*#bigpic{position: absolute;left: 0;}*/
+.mark_box{width: 379px;height: 379px;
+position: absolute;left: 0;top: 0;z-index: 10;}
+
+.detail_l{float:left}
+.detail_r{width: 146px;float: right;margin-right: 15px;}
+.title_r{border-top: 1px dotted #e5e5e5;position: relative;margin-top:15px;margin-bottom: 20px;}
+.title_r p{position: absolute;top:-8px;left:45px;}
+.listt li a img{width: 140px;height: 140px;display: block;}
+.listt li a p:nth-child(2){margin-bottom: 5px;}
+.listt li a p:nth-child(2) span{margin-right:5px;}
+.listt li a p:nth-child(3){width: 146px;white-space: nowrap; text-overflow: ellipsis;overflow: hidden;}
+.botton{margin-top:10px;margin-left:42px;}
+#prev{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico_arrow.png) -29px -2px no-repeat; display: inline-block;vertical-align: middle;width: 20px; height: 16px;}
+#next{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico_arrow.png) 0 -2px no-repeat; display: inline-block;vertical-align: middle;width: 20px;height: 16px;margin-left: 16px;}
+.detail_contant{padding-top:20px;}
+.tag ul{border-bottom: 1px solid #999;margin-bottom: 20px;position: relative;}
+.tag ul li{float: left;padding:5px 0;background: #FFFFFF;}
+.tag ul li span{font-size: 18px;font-weight: 600;padding:0 30px;}
+.tag ul li span i{color: #E14958;font-style: normal;}
+.current{border-left:1px solid #999;border-right:1px solid #999;border-top:3px solid #999;position: relative;top:1px;}
+.content_info{width:960px;margin-left:20px}
+.info1{border-bottom: dotted 1px #e5e5e5;padding-bottom: 30px;font-size: 14px;font-weight: bold;}
+.info2{padding-top: 20px;}
+.info2 dt{font-weight: bold;}
+.info2 dd img{border: 0;display: block; max-width: 960px;margin:0;padding:0}
+.data_discuss dt{font-weight: bold;font-size: 14px;padding: 26px 0 15px;}
+.common_tag ul li{position: relative;float: left;width: 180px;text-align: center;font-weight: 600; height: 50px;line-height: 50px;padding-top: 20px;}
+.pf p{padding-bottom: 0;line-height: 14px;}
+.pf p:nth-child(2) span:nth-child(2){font-size: 40px;font-weight: 500;}
+.pf p:nth-child(3) span:nth-child(2) .iconfont{color: yellow;}
+.line{width: 1px; height: 20px;background-color: #e5e5e5;display: block;position: absolute;right: 0;top: 50%;
+margin-top: 0;}
+.first_line{width: 1px; height: 20px;background-color: #e5e5e5;display: block;position: absolute;left: 0;top: 50%;
+margin-top: 0;}
+.radio input{position: relative; top: 2px;}
+.common_contant{padding-bottom:40px;position: relative;}
+.face{width: 150px; float: left;text-align: center;padding-top: 30px;}
+.face>img{width: 40px;height: 40px;margin-left: 55px;margin-bottom: 10px;}
+.putime{overflow: hidden;padding-top: 30px;}
+.putime_top span:nth-child(1){color: #CCCCCC;}
+.putime_top span:nth-child(2){float:right;}
+.putime_top span:nth-child(2) i{color: yellow;}
+.putime_top span:nth-child(2){color: #CCCCCC;}
+.putime_bottom p,.putime_bottom{margin-top:10px;font-size: 14px;}
+#Pagination{float:right;padding:0 20px;}     
+.pagination a {
+    text-decoration: none;
+	border: 1px solid #999;
+}
+.pagination a, .pagination span {
+    display: inline-block;
+    padding: 0.2em 0.6em;
+    margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+.pagination .current {
+	display:inline-block;
+    background: #999;
+    color: #fff;
+}
+
+.pagination .current.prev, .pagination .current.next{
+	color:#999;
+	border-color:#999;
+	background:#fff;}
+.balaa{padding-top:30px;border-top:1px dashed #CCCCCC;border-bottom: 1px dashed #CCCCCC;margin-bottom: 30px;}
+.balaa dl dt{padding: 26px 0 15px;}
+.balaa dl dd{line-height: 20px;padding-bottom: 16px;}
+
+.tag2{border-bottom: 1px solid #999;height:37px;width:100%;position: fixed;top:0;background: #fff;display: none;}
+.tag2 ul{margin-bottom: 20px;position: relative;float: left;margin-left:70px;}
+.tag2 ul li{float: left;padding:5px 0;background: #FFFFFF;}
+.tag2 ul li span{font-size: 18px;font-weight: 600;padding:0 30px;}
+.tag2 ul li span i{color: #E14958;font-style: normal;}
+.current{border-left:1px solid #999;border-right:1px solid #999;border-top:3px solid #999;position: relative;top:1px;}
+.content_info{width:960px;margin-left:20px}
+.info1{border-bottom: dotted 1px #e5e5e5;padding-bottom: 30px;font-size: 14px;font-weight: bold;}
+.info2{padding-top: 20px;}
+.info2 dt{font-weight: bold;}
+.info2 dd img{border: 0;display: block; max-width: 960px;margin:0;padding:0}
+.tag_right{float:right;margin-right:40px}
+.tag_right>span span{font-size: 12px;}
+.tag_right>span{display: inline-block;line-height: 38px;font-size: 25px;font-weight: 400;}
+.tag_right a{display: inline-block;width:136px;height:35px;border:2px solid #E14958;position: relative;top:0px;text-align: center;line-height: 36px;font-size: 18px;border-bottom: 0;}
+#nowbuy{color:#E14958;margin-left: 48px;margin-right:10px;}
+#putcar{background: #E14958;color: #fff;}
