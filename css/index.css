@@ -1,3 +1,6 @@
+#play a{display:block;background: url(https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1506262027789&di=2a3051cb9b1474162f414b33a36868f0&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F011fb255411284000001e71b09b8d8.jpg%40900w_1l_2o_100sh.jpg) center top;width:100%;height:100px;position: relative;}
+#play span{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/bg/login-close.png) no-repeat; position: absolute;width: 16px; height: 16px;left: 10px; top: 10px;}
+
 .main_inner{width:1200px;margin:0 auto; }
 .banner_inner .pic {position: relative;margin-left:252px;width:980px;height: 480px;top:-1px;overflow: hidden;}
 .banner_inner ul {position: relative;}

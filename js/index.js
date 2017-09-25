@@ -1,4 +1,9 @@
 $(function(){
+	//活动banner图
+	$("#play span").click(function(){
+		$("#play").hide()
+	})
+
 	//轮播图功能
 	   $('.banner_inner').banner({
 	   	  imgs:$(".pic ul li"),

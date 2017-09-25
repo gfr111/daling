@@ -6,11 +6,10 @@
 .detail_title h2{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico.png) no-repeat left center;height:20px;background-position: 1px -42px;width:20px;float: left;margin-right:30px;}
 .detail_title span:nth-child(2),.detail_title span:nth-child(4),.detail_title span:nth-child(6){display: block;width:7px;height:20px;background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico_arrow.png);float: left;background-position: 7px -85px;margin-right: 10px;}
 .detail_title span:nth-child(3){position: relative;top:2px;}
-.share{margin-top:30px;width:378px;margin-bottom: 30px;position: relative;}
+.share{margin-top:83px;width:378px;margin-bottom: 30px;position: relative;}
 .iconfont{position: relative;top:2px;}
 .fx{float:left;margin-right:40px;}
 .like{float:left;}
-.warn{float:right;}
 .span_icon1{border-color: #666 transparent transparent;    display: inline-block;border-style: solid; height: 0;line-height: 0; width: 0;border-width: 5px 4px;margin-top: 2px;position: relative;top: 2px;margin-left: 4px;}
 .warn_more{float: right;position: absolute; right: -46px;top:1px;}
 .span_icon2{border-color:  transparent transparent  #666 transparent;display: inline-block;border-style: solid; height: 0;line-height: 0; width: 0;border-width: 5px 4px;margin-top: 2px;position: relative;top: -3px;margin-left: 4px;}
@@ -21,6 +20,7 @@
 .fx a{color: #4477AA;}
 .like a{color: #E14958;}
 .intro_l,.intro_r{float: left;}
+.intro_l{position: relative;}
 .intro_r{padding-left: 40px;}
 .intro_r h1{font-weight: normal;font-size: 20px;margin-top: 10px;margin-bottom: 30px;}
 .intro_price dt{float: left;font-size: 14px;width:80px;height:40px;line-height: 40px;}
@@ -52,7 +52,7 @@
 .pic{width:379px;height:379px;border:1px solid #CCCCCC;position: relative;}
 .pic img{width:100%;height:100%;}
 #small{width:200px;height:150px;background: #CCCCCC;position: absolute;left: 0;top:0;display: none;background:url(http://img.cdn.daling.com/data/files/zin/2017/01/09/FA163E0C4D3EH19I08IKEOD29MQ.jpg);background-position:0 0;background-size: 379px 379px;border: 1px solid #CCCCCC;}
-#big{width: 400px;height: 380px;position: absolute;left: 510px;top: 262px;display: none;overflow: hidden;background:url(http://img.cdn.daling.com/data/files/zin/2017/01/09/FA163E0C4D3EH19I08IKEOD29MQ.jpg);background-position:0 0;z-index: 3;}
+#big{width: 400px;height: 380px;position: absolute;left: 510px;top: 0px;display: none;overflow: hidden;background:url(http://img.cdn.daling.com/data/files/zin/2017/01/09/FA163E0C4D3EH19I08IKEOD29MQ.jpg);background-position:0 0;z-index: 3;}
 /*#bigpic{position: absolute;left: 0;}*/
 .mark_box{width: 379px;height: 379px;
 position: absolute;left: 0;top: 0;z-index: 10;}
@@ -141,3 +141,17 @@ margin-top: 0;}
 .tag_right a{display: inline-block;width:136px;height:35px;border:2px solid #E14958;position: relative;top:0px;text-align: center;line-height: 36px;font-size: 18px;border-bottom: 0;}
 #nowbuy{color:#E14958;margin-left: 48px;margin-right:10px;}
 #putcar{background: #E14958;color: #fff;}
+
+
+#btn{
+		width:200px;
+		height:60px;
+		position: absolute;
+		left:0px;bottom: 57px;
+	}
+	#btn img{
+		float:left;
+		width:70px;
+	    height:60px;
+	    margin-right:20px;
+	}

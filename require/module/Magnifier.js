@@ -14,6 +14,7 @@ define(function(){
    		$(".pic").mousemove(function(){
    			that.move()
    		})
+   		this.click()
    	}
    	move(event){
    		//console.log(1)
@@ -49,8 +50,16 @@ define(function(){
    		  var bDistanceY = 800 - $("#big").height();
    		 //为了让大图不占位，设为显示的背景图，让背景图随着移动改变
    		  $("#big")[0].style.backgroundPosition = -bDistabceX*propX +"px "+ -bDistanceY*propY+"px"; 
+   	 }
+   	click(){
+   			$("#btn").children("img").click(function(){
+				//console.log($("#pic")[0].src)			
+					$("#pic")[0].src=$(this)[0].src
+		            $("#big")[0].style.background="url("+$(this)[0].src+")"
+  	               $("#small")[0].style.backgroundImage="url("+$(this)[0].src+")"
+			})
    	}
-   	
+   
    }
     
    return new Magnifier();

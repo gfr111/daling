@@ -1,0 +1,177 @@
+.pre {
+  width: 100%;
+  height: 807px;
+  background: url("http://www.shushi100.com/img/101/gq1.jpg") no-repeat center top; }
+
+.pre1 {
+  width: 100%;
+  height: 490px;
+  background: url("http://www.shushi100.com/img/101/gq2.jpg") center top; }
+
+.pre1_1 {
+  position: relative;
+  width: 1020px;
+  margin: 0 auto; }
+
+.pre1_l {
+  float: left;
+  width: 578px;
+  height: 445px;
+  padding: 22px 25px;
+  background: url("http://www.shushi100.com/img/101/lottery_bg.png") no-repeat center; }
+
+#luck {
+  height: 438px;
+  position: relative; }
+
+#luck li {
+  padding-top: 3px;
+  float: left;
+  height: 146px;
+  -webkit-box-sizing: border-box;
+  text-align: center;
+  width: 192px; }
+
+.pre1_r {
+  float: right;
+  background: url("http://www.shushi100.com/img/101/lottery_tip.png");
+  height: 489px;
+  width: 381px; }
+
+.pre2 {
+  background: url("http://www.shushi100.com/img/101/gq3.jpg") no-repeat center top;
+  width: 100%;
+  height: 218px; }
+
+.pre3 {
+  width: 100%;
+  height: 261px;
+  background: url("http://www.shushi100.com/img/101/gq4.jpg") no-repeat center top; }
+
+.pre_list {
+  background: #8222a8;
+  padding-bottom: 30px; }
+
+.inner {
+  width: 1020px;
+  margin: 0 auto; }
+
+.pre_list dl {
+  padding-bottom: 25px;
+  width: 1040px; }
+
+.pre_list dl dd {
+  float: left;
+  margin: 0 17px 25px 0; }
+
+.make {
+  width: 542px;
+  background: #fff url("http://www.shushi100.com/img/101/custom_bg.jpg") left top no-repeat;
+  height: 138px;
+  padding: 32px 0 0 478px;
+  margin: 0 auto 0px;
+  text-align: left; }
+
+.make form input {
+  width: 212px;
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #b3b3b3;
+  margin-right: 19px;
+  padding-left: 5px; }
+
+#btn1 {
+  background: #f23748;
+  color: #fff;
+  border: none;
+  width: 218px;
+  height: 44px;
+  margin: 29px 0 0 125px;
+  font-size: 16px;
+  cursor: pointer; }
+
+.pre4 {
+  width: 100%;
+  height: 228px;
+  background: url("http://www.shushi100.com/img/101/gq5.jpg") no-repeat center top; }
+
+.pre5 {
+  width: 100%;
+  height: 578px;
+  background: url("http://www.shushi100.com/img/101/gq6.jpg") no-repeat center top; }
+
+.lista {
+  background: #511579; }
+
+.lista_inner {
+  width: 1020px;
+  margin: 0 auto;
+  overflow: hidden; }
+
+.lista_inner dl {
+  padding-bottom: 60px;
+  width: 1040px; }
+
+.lista_inner dl dd {
+  float: left;
+  margin: 0 15px 15px 0; }
+
+.lista_inner dl dt {
+  text-align: center;
+  padding-top: 14px; }
+
+.lista_inner dl dt img {
+  display: block;
+  margin: 0 auto; }
+
+.pict1 {
+  width: 100%;
+  height: 238px;
+  background: url("http://www.shushi100.com/img/101/gq7.jpg") no-repeat center top; }
+
+.pict2 {
+  width: 100%;
+  height: 318px;
+  background: url("http://www.shushi100.com/img/101/gq8.jpg") no-repeat center top; }
+
+.pict3 {
+  width: 100%;
+  height: 273px;
+  background: url("http://www.shushi100.com/img/101/gq9.jpg") no-repeat center top; }
+
+.pict4 {
+  width: 100%;
+  height: 673px;
+  background: url("http://www.shushi100.com/img/101/gq10.jpg") no-repeat center top; }
+
+.intro1 {
+  background: #45126d;
+  overflow: hidden;
+  padding-bottom: 64px; }
+
+.intro1_inner {
+  width: 1020px;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: left; }
+
+.intro1_inner dl {
+  border: 9px solid #d73952;
+  background: #f5657c;
+  color: #fff;
+  padding: 25px 0;
+  border-radius: 5px; }
+
+.intro1_inner dl dt {
+  float: left;
+  width: 92px;
+  line-height: 120%;
+  margin: 45px 45px 0 45px;
+  font-size: 42px; }
+
+.intro1_inner dl dd {
+  float: left;
+  width: 815px;
+  font-size: 16px;
+  line-height: 160%;
+  color: #f2f2f4; }
