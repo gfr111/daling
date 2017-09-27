@@ -18,12 +18,14 @@ define(function(){
     	}
 
 	   	if(direction=="bottom"){
-    			this.num--;   	
-	    	  if($("#buy").val() == 1){
+    			 	
+	    	  if(this.num <= 1){
+	    	  	 this.num =1
     			  return false;  			
 	  		  }else{
-	  		  	  $("#buy").val(this.num);
+	  		  	  this.num--;  	  		  	 
 	  		  }
+	  		   $("#buy").val(this.num);
 	    }
     }
      return new Num() 

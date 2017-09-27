@@ -10,12 +10,119 @@
 	    <link type="text/css" rel="stylesheet" href="../css/shopcar.css"/>
 	</head>
 	<body>
-		<div id="rightButon"></div>
 		<div id="warn">		
 		</div>
-
+       <div id="main" style="background: #fff;">
+	       	<div class="main_inner">
+	       		<div class="main_top clearfix">
+	       			<div class="logo">
+	       				<a href="http://10.9.171.107:8888/daling/index.html">
+	       					<img src="http://img.cdn.daling.com/st/web/170627102318/styles/images/logo.png"  />
+	       				</a>
+	       			</div>
+	       			<div class="top_right">
+	       				<ul>
+	       					<li id="check"><span class="rid">1</span><span>查看购物车</span><span id="tra"></span></li>
+	       						<li><span class="rid">2</span><span>确认订单信息</span><span class="toR"></span></li>
+	       							<li><span class="rid">3</span><span>成功提交订单</span></li>
+	       				</ul>
+	       			</div>
+	       	   
+	       		</div>
+	           <div class="main_content">
+	           	<ul class="content_title">
+	           		<li class="th_chenk">
+	           			<input type="checkbox"  />全选
+	           		</li>
+	           		<li class="th_name">
+	           			商品名称
+	           		</li>
+	           		<li class="th_price">
+	           			单价(元)
+	           		</li>
+	           		<li class="th_number">
+	           			数量
+	           		</li>
+	           		<li class="th_small">
+	           			小计(元)
+	           		</li>
+	           		<li class="th_do">
+	           			操作
+	           		</li>
+	           	</ul>
+	           </div>
+	          	<div class="shop_bg">
+		           	   <dl class="clearfix">
+		           	   	 <dt></dt>
+		           	   	 <dd>购物车没有物品哦，快去逛逛吧</dd>
+		           	   </dl>
+		       </div>
+	           <div class="shopcarList">
+		           
+	           </div>
+	           <div class="count">
+		           	<ul class="clearfix">
+		           		<li class="count_check">
+		           			<input type="checkbox"  />全选
+		           		</li>
+		           		<li class="count_dele">
+		           			删除选中的商品
+		           		</li>
+		           		<li class="count_like">
+		           			移到我的收藏
+		           		</li>
+		           		<li class="count_number">
+		           			已选中2减商品
+		           		</li>
+		           		<li class="count_small">
+		           			<p>总金额：￥<span id="allprice">0.00</span></p>
+		           			<p>已结省：<span>-0.00</span></p>
+		           		</li>
+		           		<li class="count_do">
+		           			结算
+		           		</li>
+		           	</ul>
+	           </div>
+	       	   <div class="collection">
+	       	   	<div class="sc">
+	       	   		<p>我的收藏</p>
+	       	   	</div>
+	       	   	<div class="loginto">
+	       	   		<p>登陆后才能查看收藏的全球好货哦~</p>
+	       	   		<p>登录</p>
+	       	   	</div>
+	       	   </div>	      
+	       	</div>
+       </div>
 		<div id="footer"></div>
+		<div class="shop_bottom">
+			 	 <div class="count" style="border:0">
+		           	<ul class="clearfix">
+		           		<li class="count_check">
+		           			<input type="checkbox"  />全选
+		           		</li>
+		           		<li class="count_dele">
+		           			删除选中的商品
+		           		</li>
+		           		<li class="count_like">
+		           			移到我的收藏
+		           		</li>
+		           		<li class="count_number">
+		           			已选中2减商品
+		           		</li>
+		           		<li class="count_small">
+		           			<p>总金额：￥<span id="bottomprice">0.00</span></p>
+		           			<p>已结省：<span>-0.00</span></p>
+		           		</li>
+		           		<li class="count_do">
+		           			结算
+		           		</li>
+		           	</ul>
+	           </div>
+		</div>
 	</body>
 		<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
-		<script src="../js/headerBottom.js"></script>
+		<script src="../js/headerBottom.js"></script>	
+		<script src="../js/jquery.cookie.js"></script>
+		<script src="../js/shopcar.js"></script>
 </html>

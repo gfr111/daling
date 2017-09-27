@@ -198,16 +198,20 @@ $(function(){
 		  }				
         })
         //点击登录的判断
+        $(document).ajaxStart(function(){
+        	new Toast().init()
+        })
         $("#put1").click(function(){  
-        	console.log($(".phone").val())
-        	console.log($(".pass").val())
-        	console.log(arr1)
+        	//console.log($(".phone").val())
+        	//console.log($(".pass").val())
+        	//console.log(arr1)
         		if(arr1.indexOf(false) !== -1){
 	        	       new Toast({
 							width:300,
 							height:200,
 							text:"您的输入有误，请重新输入"
 					   }) 
+					   return false;
         		}else{
         			$.ajax({
         				type:"POST",
@@ -236,7 +240,7 @@ $(function(){
 						default:new Toast({
 										width:300,
 										height:200,
-							            text:"登陆成功,我们稍微将为您跳转到购物页面!!"
+							            text:"登陆成功,我们稍后将为您跳转到购物页面!!"
 					     });
         					}
 
@@ -255,6 +259,7 @@ $(function(){
 							height:200,
 							text:"您的输入有误，请重新输入"
 					   }) 
+					   return false;
         		}else{
         			$.ajax({
         				type:"POST",
@@ -331,7 +336,7 @@ $(function(){
 		  		Toast.div.html(this.text)
 		  	if(!Toast.timer){
 					Toast.timer=setInterval(function(){
-					 Toast.div.hide(1000);
+					 Toast.div.hide(2000);
 					 Toast.timer=null;
 				},3000)
 			  }		  	

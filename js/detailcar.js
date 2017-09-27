@@ -107,11 +107,106 @@ $("#rightButon").load("http://10.9.171.107:8888/daling/html/footer.html .rightBu
        	  $(".p4").on("click",function(){
        	  	 $("html,body").animate({scrollTop:0},500)
        	  })
-     //调用换一换功能
-         var change=new Change();
-             change.load()
-            
-
-//        new Pagination()
+         new GetCookie()
    })
+   //从cookie中读取数据，填写进页面
+    class GetCookie{
+       constructor(){
+       	  this.load();
+    	  //this.num=("#ppp").val()
+       }
+      load(){
+	    var that=this;
+	    $.ajax("http://10.9.171.107:8888/daling/data/list.json")
+	    	.then(function(res){
+	    		that.res=res
+	    		//console.log(res)
+	    		//that.init()
+	    		that.howMany();
+	    		that.showCar();
+	    	},function(){
+	    		//console.log("拼接失败")
+	    	})
+	    }  
+     howMany(){
+    	if($.cookie("goods")){
+    		var aCookie = JSON.parse($.cookie("goods"));
+			var res = 0;
+			var price=0;
+    		//console.log(aCookie)
+    		for(var i=0;i<aCookie.length;i++){
+    			res+=aCookie[i].num;
+    			var a=parseInt(this.res[aCookie[i].id].span1)
+			    		//	console.log(a)
+			    price+=aCookie[i].num*a
+    		}
+    		        $(".num").html(res);   		        
+					$("#number").html(res)
+					$("#all_price").html("￥"+price)
+					if(res>0){
+    		        	$(".inside_shop_list").show()
+    		        	$(".inside_shop_content").hide()
+						$(".all").show()
+					}else{
+						$(".all").hide()
+						$(".inside_shop_list").hide()
+    		        	$(".inside_shop_content").show()
+					}
+$(".all p").children("span").eq(0).html(res);
+					return res;
+    	}
+    }
+      showCar(){
+    	var that=this;
+				if($.cookie("goods")){
+					var aCookie = JSON.parse($.cookie("goods"));
+					//console.log(this.res[aCookie[2].id].id)
+					var html = "";
+					for(var i = 0 ; i < aCookie.length ; i++){
+					html +=
+							`<li class="clearfix"><img src="${this.res[aCookie[i].id].img}" />
+		      	   		<div><p>${this.res[aCookie[i].id].span4}</p>
+		      	   			<p><span>数量:</span>${aCookie[i].num}<span>价格:</span>${this.res[aCookie[i].id].span1}<span id="${aCookie[i].id}" class="delet">删除</span></p>
+		      	   		</div>
+		      	   		</li>
+							`
+					}
+					//console.log(html)
+					 $(".inside_shop_list ul").html(html)        
+				}
+				   $(".inside_shop_list").on("click",".delet",function(){
+         	      	 // console.log(this)
+         	      	 that.dele(this)
+         	      })
+			}
+      dele(obj){
+	     	  //console.log($(obj))
+	     	  //获取当前点击的元素的id
+	     	  var id= $(obj).attr("id")
+	     	  console.log(id)
+	     	  var cookie=$.cookie("goods");
+	     	  //转化成对象
+	     	  var aCookie=JSON.parse(cookie);
+	     	  //console.log(cookie);
+	     	  //在转化后的对象数组中找到当前id所属的对象
+	     	  for(var i=0;i<aCookie.length;i++){
+	     	  	if(aCookie[i].id==id){
+	     	  	    aCookie.splice(i,1);
+	     	  	    //console.log(aCookie);
+	     	  	    break;
+	     	  	}
+	     	  }
+	     	  //将删除后的cookie再次转化成字符串，填写进cookie
+	     	  cookie=JSON.stringify(aCookie);
+	     	  $.cookie("goods",cookie,{
+	     	  	path:"/daling"
+	     	  });
+	     	  //删除后再次调用两个函数，及时更新购物车信息
+	     	  this.howMany();
+	     	  this.showCar();	     	   	
+     }
+     
+  }
+    
+
 })

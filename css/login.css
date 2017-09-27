@@ -19,8 +19,8 @@ input{height:36px;border:0;border: 1px solid #CCCCCC;position: absolute;left: 41
 .checkNum,{width:145px;}
 .check{display: inline-block;float:right;width:70px;height:30px;background: #CCCCCC;text-align: center;line-height: 30px;margin-top:3px;margin-right: 20px;}
 #pNum{display: inline-block;float:right;width:80px;height:25px;background: #94d469;text-align: center;line-height: 30px;margin-top:3px;margin-right: 20px;font-size: 14px;margin-top: 7px;line-height: 25px;text-align: center;}
-#put1{width:320px;height:40px;background: #e14958;margin-top: 20px;text-align: center;line-height: 40px;font-size: 16px;color: #FFFFFF;}
-#put2{width:320px;height:40px;background: #e14958;margin-top: 20px;text-align: center;line-height: 40px;font-size: 16px;color: #FFFFFF;}
+#put1{width:320px;height:40px;background: #e14958;margin-top: 20px;text-align: center;line-height: 40px;font-size: 16px;color: #FFFFFF;border: none;outline: none;}
+#put2{width:320px;height:40px;background: #e14958;margin-top: 20px;text-align: center;line-height: 40px;font-size: 16px;color: #FFFFFF;border: none;outline: none;}
 .register{display:none}
 #password{
 	width:256px;height:36px
@@ -32,6 +32,5 @@ input{height:36px;border:0;border: 1px solid #CCCCCC;position: absolute;left: 41
 form>div{position: relative;}
 form>div>span{position: absolute;left:0;top:42px;margin-left: 4px;color:#CCCCCC;}
 
-.toast{
-	width:300px;height:150px;background: url(http://i.dimg.cc/ea/2b/45/f4/3d/c8/f1/a3/4a/17/8e/45/15/ba/08/27.jpg) no-repeat;box-shadow: 0 0 6px #CCCCCC;position:absolute;left:50%;top:45%;marginLeft:-100px;marginTop: -100px;text-align: center;font-size: 14px;background-size: cover;background-position: 0 -30px;color: #FFFFFF;
+.toast{width:300px;height:150px;background:url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1506488665734&di=b418911e11e68933892bd0426451e965&imgtype=0&src=http%3A%2F%2Fimg.zcool.cn%2Fcommunity%2F01fc7c580451dca84a0e282b93c323.gif") no-repeat;box-shadow: 0 0 6px #CCCCCC;position:absolute;left:50%;top:45%;marginLeft:-100px;marginTop: -100px;text-align: center;font-size: 14px;background-size: cover;background-position: 0 -30px;
 }

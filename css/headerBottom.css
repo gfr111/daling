@@ -76,7 +76,7 @@
 .inside{float:left;width:260px;height:100%;position: relative;display: none;}
 .inside_shop{height:100%;background: #f4f4f4;padding-top: 20px;display: none;}
 .clear{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/bg/login-close.png) no-repeat;position: absolute;width:16px;height:16px;right:10px;top:10px;}
-.inside_shop_title{width:240px;text-align: center;}
+.inside_shop_title{width:240px;text-align: center;position: absolute;top:40px;}
 .inside_shop_content{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/bg/cart_mini_empty.png) no-repeat;width:240px;height:200px;margin-left:35px;margin-top:200px;}
 
 .inside_money{height:100%;background: #333333;padding-top: 20px;display: none;}
@@ -117,3 +117,17 @@
 .fb{padding: 20px 0 0;font-size: 14px;}
 
 /*尾部*/
+/*购物车布局*/
+.inside_shop_list{height:100%; display: none;position: absolute;top:50px;}
+.inside_shop_list ul{margin-top: 20px;width:260px;height:656px;overflow: auto;}
+.inside_shop_list ul li{background: #FFFFFF;padding:5px 5px 3px 10px;margin-bottom: 3px;}
+.inside_shop_list ul li img{width:56px;height:56px;border:1px solid #CCCCCC;float: left;margin-right:10px;}
+.inside_shop_list ul li div{float:left;}
+.inside_shop_list ul li div p:nth-child(1){width:150px;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;margin-top: 10px;margin-bottom: 10px;}
+.inside_shop_list ul li div p:nth-child(2){margin-left: 5px;}
+.inside_shop_list ul li div p:nth-child(2) span:nth-child(3){float:right;}
+.inside_shop_list ul li div p:nth-child(2) span:nth-child(2){margin-left: 10px;}
+.inside_shop_list ul li div p:nth-child(2) span{margin-right:0px}
+.all{width:260px;text-align: center;position: fixed;bottom:0px;display: none;background: #f4f4f4;z-index: 2;padding-bottom: 20px;padding-top:20px;}
+.all p span:nth-child(2){font-size: 14px;color: #E14958;}
+.all a{display:block;width:100px;margin:0 auto;height:30px;text-align: center;line-height: 30px;background: #E14958;color: #fff;margin-top:5px;}

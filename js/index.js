@@ -3,7 +3,6 @@ $(function(){
 	$("#play span").click(function(){
 		$("#play").hide()
 	})
-
 	//轮播图功能
 	   $('.banner_inner').banner({
 	   	  imgs:$(".pic ul li"),
@@ -11,69 +10,8 @@ $(function(){
 	   	  left:$("#left"),
 	   	  right:$("#right")
 	   })
-//换一换功能
-     function Change(){
-       	this.index=0
-       	this.load()
-      // 	console.log(1)
-       }
-      Change.prototype.load=function(){
-       	var that=this
-       	//console.log(1)
-       	 $.ajax({
-      	    url:"http://10.9.171.107:8888/daling/data/change.php",
-      	    dataType:"json"
-      	}).then(function(res){
-      		 that.res=res;
-      		// that.init()
-      		 that.changeLi() 
-      		$("#change").click(function(){
-	      	 	if(that.index==Math.floor(that.res.length/4)-1){
-					that.index=0;
-				}else{
-					that.index++
-				}
-	      	    that.changeLi();
-      	  })
-      	}) 
-      }
-//    Change.prototype.init=function(){
-//    	var that=this;
-//    	
-//    }
-       Change.prototype.changeLi=function(){     	
-      	     var html=""
-      		for(var i=this.index*4;i<this.index*4+4;i++){
-      			if(i<this.res.length){
-      				html+=`<li>
-	    	      		<a href="##"><img src="${this.res[i].img}"  /></a>
-	    	      		<div id="data">
-	    	      			<p class="list_p1">
-	    	      			<span class="money">${this.res[i].money}</span>
-	    	      			<span class="new_price">${this.res[i].new_price}</span>
-	    	      			<s>${this.res[i].s}</s>
-	    	      			<span class="like">${this.res[i].like}</span>
-	    	      		</p>
-	    	      		<p class="list_p2">
-	    	      			<span>${this.res[i].zhe}</span>
-	    	      			<span>${this.res[i].span}</span>
-	    	      		</p>
-	    	      		</div>
-	    	      		<div class="shopcar1">
-	    	      			<a href="##">
-	    	      				加入购物车<i class="iconfont">&#xe601;</i>
-	    	      			</a>
-	    	      		</div>
-	    	      	</li>`
-      			}
-      			
-      		}
-      		$("#new").html(html);
-      }
-      new Change()
-           
       //下方选项卡
-      $.get("http://10.9.171.107:8888/daling/data/index.php",{data:"0"},function(res,status,defer){
+    $.get("http://10.9.171.107:8888/daling/data/index.php",{data:"0"},function(res,status,defer){
 				//利用回调函数的返回值将数据插入页面中
 			       	$(".good-list1").html(res)
        })
@@ -138,4 +76,9 @@ $(function(){
     setInterval(function(){
     	ResTime()
     },1000)
+    
+    
+    
+    
+    
 })

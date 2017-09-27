@@ -1,0 +1,59 @@
+.main_inner{margin:0 auto;width:1200px;}
+.main_top{margin:0 auto;width:1020px;padding-top: 30px;padding-bottom: 60px;}
+.logo{float:left;width:280px;height:40px;}
+.top_right{float:right;}
+.top_right ul{border:1px solid #CCCCCC;width:615px;height:40px;}
+.top_right ul li{float:left;width:205px;height:40px;text-align: center;position: relative;}
+.top_right ul li span{margin-top:11px;display: inline-block;}
+.rid{width:20px;height:20px;border-radius: 50%;background: #CCCCCC;position: absolute;left:40px;top:0}
+#check{background: #f25e5a;color: #fff;}
+#check .rid{background: #fff;color: #333;}
+#tra{display: inline-block;position: absolute;border-color: transparent transparent transparent  #f25e5a; left:205px;border-width: 20px 11px;border-style: solid;top:-10px}
+.toR{display: inline-block;background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico_arrow.png) -64px -85px no-repeat;width:7px;height:21px;vertical-align: middle;position: absolute;left:185px;}
+.content_title{width:1018px;height:38px;margin:0 auto;border:1px solid #ccc;}
+.content_title li{float: left;line-height: 38px;text-align: center;}
+.th_chenk{width:100px}
+.th_chenk input{position: relative;top:2px}
+.main_content{padding-bottom: 20px;}
+.th_name{width:440px;}
+.th_price{width:120px;}
+.th_number{width:116px;}
+.th_small{width:128px;}
+.th_do{width:114px;}
+.shopcarList{margin: 0 auto;width:1020px;}
+.shopcarList ul{border:1px solid #CCCCCC;padding-bottom: 10px;margin-bottom: 10px;}
+.shopcarList ul li{margin-top: 20px;float:left;}
+.shopcarList ul li:nth-child(1){width:52px;vertical-align: middle;text-align: center;}
+.shopcarList ul li:nth-child(2){width:486px;}
+.shopcarList ul li:nth-child(2) img{width:78px;height: 78px;border: 1px solid #CCCCCC;}
+.shopcarList ul li:nth-child(2) dt{float:left;margin-right: 20px;}
+.shopcarList ul li:nth-child(2)  dd{float:left;}
+.shopcarList ul li:nth-child(2)  dd span{line-height: 16px;overflow: hidden;display: block;width:250px;text-overflow: ellipsis;white-space: nowrap;}
+.shopcarList ul li:nth-child(3){width:120px;text-align: center;font-size: 20px;} 
+.shopcarList ul li:nth-child(4){width:98px;padding: 0 10px;text-align: center;}
+.shopcarList ul li:nth-child(4) a{float: left;display: inline-block;width:29px;height:30px;border: 1px solid #333;text-align: center;line-height: 30px;}
+.shopcarList ul li:nth-child(4) input{float: left;width:34px;height:28px;border:none;outline: none;border:1px solid #333;border-left: 0;border-right: 0;text-align: center;}
+.shopcarList ul li:nth-child(5){color: #E14958;width:128px;text-align: center;font-size: 16px;}
+.shopcarList ul li:nth-child(6){width:114px;text-align: center;}
+.count{width:1018px;margin:0 auto;background:#f2f2f2;height:58px;border:1px solid #ccc}
+.count li{float: left;text-align: center;line-height: 58px;}
+.count_check{width:100px;}
+.count_check input{position: relative;top:2px;}
+.count_dele{width:120px;}
+.count_like{width:110px;}
+.count_number{width:208px;margin-left: 200px;}
+.count_small{width:180px;margin-top:10px;}
+.count_small p{line-height: 20px;}
+.count_small p:nth-child(1) span{font-size: 16px;color: #E14958;}
+.count_do{width:100px;background: #E14958;color: #FFFFFF;font-size: 16px;}
+.collection{width:1020px;margin:0 auto;padding-top:50px;}
+.sc{width:142px;;border-top: 1px dotted #CCCCCC;margin:0 auto;text-align: center;}
+.sc p{position: relative;top:-10px;background: #ffffff;width:80px;height:19px;left:30px;}
+.loginto{width:252px;margin: 18px auto 0;padding-bottom: 30px;}
+.loginto p:nth-child(1){font-size: 16px;}
+.loginto p:nth-child(2){width:170px;height:40px;background: #E14958;margin:0 auto;margin-top:20px;text-align: center;line-height: 40px;color:#fff;font-size: 16px;}
+.shop_bg{width:300px;margin:0 auto;margin:20px auto;}
+.shop_bg dt{background: url(http://img.cdn.daling.com/st/web/170627102318/styles/images/icon/ico-cart-empty.png) no-repeat;width:80px;height:70px;float:left;margin-right:20px;}
+.shop_bg dd{float:left;line-height: 70px;}
+.shop_bottom{width:100%;height:58px;border:1px solid #CCCCCC;background: #f2f2f2;position: fixed;bottom: 0;display:none;}
+
